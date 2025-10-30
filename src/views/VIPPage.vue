@@ -217,7 +217,7 @@ const selectPlatform = (index: number) => {
         <!-- 平台切换指示器 -->
         <div class="flex justify-center gap-2 mt-8">
           <button
-            v-for="(platform, index) in platforms"
+            v-for="(_, index) in platforms"
             :key="index"
             :class="[
               'w-3 h-3 rounded-full transition-all',
