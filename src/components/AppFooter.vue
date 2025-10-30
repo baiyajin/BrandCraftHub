@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -42,7 +43,7 @@
 
       <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
         <div class="flex items-center mb-4 md:mb-0">
-          <img src="/e63a1282119cdd91afaa0e24c3fb335.png" alt="healoLogo" class="h-10">
+          <img :src="baseUrl + 'e63a1282119cdd91afaa0e24c3fb335.png'" alt="healoLogo" class="h-10">
         </div>
         <div class="text-sm text-center md:text-right">
           <p>Copyright © 2025 昆明动悉科技有限公司 All Rights Reserved</p>

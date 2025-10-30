@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -6,7 +7,7 @@
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
       <div class="flex items-center">
         <router-link to="/">
-          <img src="/e63a1282119cdd91afaa0e24c3fb335.png" alt="healoLogo" class="h-10">
+          <img :src="baseUrl + 'e63a1282119cdd91afaa0e24c3fb335.png'" alt="healoLogo" class="h-10">
         </router-link>
       </div>
       <nav class="hidden md:flex items-center gap-8">
