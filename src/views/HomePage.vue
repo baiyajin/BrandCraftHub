@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const currentTab = ref('社交电商')
 const industryTab = ref('美妆护肤')
 
-const tabs = ['电商', '新零售', '教育', '建站', '党分达']
+const tabs = ['电商', '新零售', '教育', '建站']
 
 const features = [
   {
@@ -203,7 +203,7 @@ const advantages = [
       <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-12">
           <h2 class="text-4xl font-bold mb-4">多种全场景商业模型 助力数字化</h2>
-          <p class="text-2xl text-blue-600 font-medium">分达集团多年研发实力 精通线上营销模式</p>
+          <p class="text-2xl text-blue-600 font-medium">healo多年研发实力 精通线上营销模式</p>
         </div>
 
         <div class="grid md:grid-cols-4 gap-6">
@@ -226,7 +226,7 @@ const advantages = [
     <section class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-12">
-          <h2 class="text-4xl font-bold mb-4">大家都选择与分达合作</h2>
+          <h2 class="text-4xl font-bold mb-4">大家都选择与healo合作</h2>
           <p class="text-2xl text-blue-600 font-medium">客户的认可才是最佳严选</p>
         </div>
 
@@ -333,7 +333,7 @@ const advantages = [
             </ul>
           </div>
           <div>
-            <h4 class="text-white font-bold mb-4">了解分达集团</h4>
+            <h4 class="text-white font-bold mb-4">了解healo</h4>
             <ul class="space-y-2">
               <li><a href="#" class="hover:text-white transition-colors">关于我们</a></li>
               <li><a href="#" class="hover:text-white transition-colors">加入我们</a></li>
@@ -344,10 +344,10 @@ const advantages = [
 
         <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div class="flex items-center mb-4 md:mb-0">
-            <img src="https://ext.same-assets.com/2009060112/3278705006.gif" alt="分达Logo" class="h-8 mr-4">
+            <img src="/e63a1282119cdd91afaa0e24c3fb335.png" alt="healoLogo" class="h-8 mr-4">
           </div>
           <div class="text-sm text-center md:text-right">
-            <p>Copyright © 2025 广东分达技术有限公司 All Rights Reserved</p>
+            <p>Copyright © 2025 昆明动悉科技有限公司 All Rights Reserved</p>
           </div>
         </div>
       </div>

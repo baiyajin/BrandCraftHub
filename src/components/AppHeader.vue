@@ -6,7 +6,7 @@
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
       <div class="flex items-center">
         <router-link to="/">
-          <img src="https://ext.same-assets.com/2009060112/3278705006.gif" alt="分达Logo" class="h-10">
+          <img src="/e63a1282119cdd91afaa0e24c3fb335.png" alt="healoLogo" class="h-10">
         </router-link>
       </div>
       <nav class="hidden md:flex items-center gap-8">
@@ -16,7 +16,7 @@
         <router-link to="/vip" class="text-gray-700 hover:text-blue-600 transition-colors">VIP</router-link>
         <a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">收费标准</a>
         <a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">品牌服务</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">关于分达</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">关于healo</a>
       </nav>
       <div class="flex items-center gap-4">
         <button class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors">

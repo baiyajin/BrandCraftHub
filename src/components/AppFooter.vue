@@ -31,7 +31,7 @@
           </ul>
         </div>
         <div>
-          <h4 class="text-white font-bold mb-4">了解分达集团</h4>
+          <h4 class="text-white font-bold mb-4">了解healo</h4>
           <ul class="space-y-2">
             <li><a href="#" class="hover:text-white transition-colors">关于我们</a></li>
             <li><a href="#" class="hover:text-white transition-colors">加入我们</a></li>
@@ -42,10 +42,10 @@
 
       <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
         <div class="flex items-center mb-4 md:mb-0">
-          <img src="https://ext.same-assets.com/2009060112/3278705006.gif" alt="分达Logo" class="h-8 mr-4">
+          <img src="/e63a1282119cdd91afaa0e24c3fb335.png" alt="healoLogo" class="h-10">
         </div>
         <div class="text-sm text-center md:text-right">
-          <p>Copyright © 2025 广东分达技术有限公司 All Rights Reserved</p>
+          <p>Copyright © 2025 昆明动悉科技有限公司 All Rights Reserved</p>
         </div>
       </div>
     </div>

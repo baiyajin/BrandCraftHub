@@ -75,10 +75,19 @@ const platforms = [
 const pricingPlans = [
   {
     name: '免费',
-    subtitle: '开源的力量',
+    subtitle: '真正免费',
     price: 0,
     unit: '',
     buttonText: '免费下载',
+    buttonClass: 'bg-blue-600 text-white hover:bg-blue-700',
+    cardClass: 'bg-slate-800'
+  },
+  {
+    name: '微免费',
+    subtitle: '共享',
+    price: 998,
+    unit: '起',
+    buttonText: '立即购买',
     buttonClass: 'bg-blue-600 text-white hover:bg-blue-700',
     cardClass: 'bg-slate-800'
   },
@@ -228,7 +237,7 @@ const selectPlatform = (index: number) => {
           <p class="text-xl text-gray-400">灵活的定价方案，满足不同规模企业需求</p>
         </div>
 
-        <div class="grid md:grid-cols-4 gap-6">
+        <div class="grid md:grid-cols-5 gap-6">
           <div
             v-for="(plan, index) in pricingPlans"
             :key="index"
@@ -300,7 +309,7 @@ const selectPlatform = (index: number) => {
             </ul>
           </div>
           <div>
-            <h4 class="text-white font-bold mb-4">了解分达集团</h4>
+            <h4 class="text-white font-bold mb-4">了解healo</h4>
             <ul class="space-y-2">
               <li><a href="#" class="hover:text-white transition-colors">关于我们</a></li>
               <li><a href="#" class="hover:text-white transition-colors">加入我们</a></li>
@@ -311,10 +320,10 @@ const selectPlatform = (index: number) => {
 
         <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div class="flex items-center mb-4 md:mb-0">
-            <img src="https://ext.same-assets.com/2009060112/3278705006.gif" alt="分达Logo" class="h-8 mr-4">
+            <img src="/e63a1282119cdd91afaa0e24c3fb335.png" alt="healoLogo" class="h-8 mr-4">
           </div>
           <div class="text-sm text-center md:text-right">
-            <p>Copyright © 2025 广东分达技术有限公司 All Rights Reserved</p>
+            <p>Copyright © 2025 昆明动悉科技有限公司 All Rights Reserved</p>
           </div>
         </div>
       </div>
