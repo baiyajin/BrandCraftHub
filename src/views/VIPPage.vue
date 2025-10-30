@@ -163,9 +163,9 @@ const selectPlatform = (index: number) => {
             :key="index"
             class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
           >
-            <div :class="`bg-gradient-to-br ${app.gradient} p-12 text-white relative`">
-              <div class="text-6xl mb-4 opacity-50">{{ app.icon }}</div>
-              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+            <div :class="`p-12 text-white relative`">
+              <div class="text-6xl mb-4">{{ app.icon }}</div>
+              <div class="absolute inset-0 to-transparent" />
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold mb-2">{{ app.title }}</h3>
@@ -195,7 +195,7 @@ const selectPlatform = (index: number) => {
             :class="[
               'relative cursor-pointer transition-all duration-300',
               currentPlatform === index
-                ? 'bg-gradient-to-br from-blue-500 to-blue-600 text-white scale-105 z-10 shadow-2xl'
+                ? 'bg-gradient-to-br from-blue-300 to-blue-500 text-white scale-105 z-10 shadow-2xl'
                 : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
             ]"
             @click="selectPlatform(index)"
